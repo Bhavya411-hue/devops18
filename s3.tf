@@ -21,6 +21,7 @@ bucket = aws_s3_bucket.one.id
 versioning_configuration {
 status = "Enabled"
 }
+}
 terraform {
   backend "s3" {
     bucket = "jbhavyas.flm.bucket"
